@@ -74,6 +74,7 @@ const propTypes = {
   EXPERIMENTAL_cutCopyPaste: PropTypes.bool,
   allowSuggestionsAboveCursor: PropTypes.bool,
   ignoreAccents: PropTypes.bool,
+  containerStyle: PropTypes.object,
 
   value: PropTypes.string,
   onKeyDown: PropTypes.func,
